@@ -1,0 +1,7 @@
+parameters:
+#    rezo_ucp_blog.example.class: RezoUCP\BlogBundle\Example
+
+services:
+#    rezo_ucp_blog.example:
+#        class: %rezo_ucp_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

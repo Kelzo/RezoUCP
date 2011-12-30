@@ -1,0 +1,13 @@
+uneNouvelleRoute:
+    pattern:  /{nom}
+    defaults: {  _controller: RezoUCPBlogBundle:Blog:index, nom:yellow }
+
+voir_article:
+    pattern:  /{id}
+    defaults: {  _controller: RezoUCPBlogBundle:Blog:voir }	
+
+liste_articles:
+    pattern: /liste/{page}
+    defaults: {_controller: RezoUCPBlogBundle:Blog:liste,page:1}
+    requirements:
+        page: \d+
